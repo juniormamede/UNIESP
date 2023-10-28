@@ -1,17 +1,25 @@
 package br.inf.mstech.pessoas;
 
-public class pessoa {
+import br.inf.mstech.Composicao.Endereco;
+		
+public class Pessoa {
 	private String nome;
 	private String dataNascimento;
-	private String endereco;
+	
+	//Endereco Deixa de Ser STRING e passa a ser Classe
+	//private String endereco;
+	private Endereco endereco;
+	
+	
+	
 	private String telsContato;
 	
 	
-	public pessoa() {
+	public Pessoa() {
 	}
 	
 	//Metodo sempre vem acompanhado dos parenteses
-	public void cadastrar(  String nome, String dataNascimento, String endereco, String telsContato ) {
+	public void cadastrar(  String nome, String dataNascimento, Endereco endereco, String telsContato ) {
 		this.nome = nome;
 		this.dataNascimento = dataNascimento;
 		this.endereco = endereco;
@@ -44,11 +52,17 @@ public class pessoa {
 		this.dataNascimento = dataNascimento;
 	}
 
-	public String getEndereco() {
-		return endereco;
-	}
-
-	public void setEndereco(String endereco) {
+	// Anteriormente era um atributo agora passa a ser uma classe
+	//public String getEndereco() {
+	//	return endereco;
+	//}
+	
+	public Endereco getEndereco() {
+			return endereco;
+		}
+	
+	
+	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
 

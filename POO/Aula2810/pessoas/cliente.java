@@ -1,6 +1,6 @@
 package br.inf.mstech.pessoas;
 
-public class cliente extends pessoa{
+public class Cliente extends Pessoa{
 	public String codigo;
 	public String profissao;
 	
@@ -10,7 +10,7 @@ public class cliente extends pessoa{
 		this.profissao = profissao;
         setNome(nome);
         setDataNascimento(dataNascimento);
-        setEndereco(endereco);
+        setEndereco(getEndereco());
         setTelsContato(telsContato);
 		
 	}

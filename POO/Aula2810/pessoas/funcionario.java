@@ -1,6 +1,6 @@
 package br.inf.mstech.pessoas;
 
-public class funcionario extends pessoa {
+public class Funcionario extends Pessoa {
 	private int matricula;
 	private String cargo;
 	private double salario;
@@ -44,7 +44,7 @@ public class funcionario extends pessoa {
 		this.matricula = matricula;
 		this.salario = salario;
 		setDataNascimento(dataNascimento);
-		setEndereco(endereco);
+		setEndereco(getEndereco());
 		setNome(nome);
 		setTelsContato(telsContato);
 	}

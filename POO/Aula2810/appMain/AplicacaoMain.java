@@ -12,8 +12,8 @@ public class AplicacaoMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         
-	    funcionario objFuncionario = new funcionario();
-	    cliente objCliente         = new cliente();
+	    Funcionario objFuncionario = new Funcionario();
+	    Cliente objCliente         = new Cliente();
 	    
 	    
 	    
