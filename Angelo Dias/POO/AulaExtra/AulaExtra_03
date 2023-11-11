@@ -1,0 +1,50 @@
+/*
+ Write a Java method to count all vowels in a string.
+Test Data:
+Input the string: w3resource
+Expected Output:
+
+Number of  Vowels in the string: 4
+*/
+
+import java.util.Scanner;
+
+public class AulaExtra03 {
+	public static void main(String[] args) 
+	{
+    Scanner in = new Scanner(System.in);
+    System.out.println("Escreva sua Palavra : ");
+	String str = in.nextLine();
+	
+	System.out.println("O numero de vogais é : " + contar_vogais(str) + "\n");
+
+    // fim do objeto
+    }
+
+// classe secundaria
+public static int contar_vogais(String str){
+	int count = 0;
+	for (int i = 0; i< str.length(); i++)
+	{
+		if ( str.charAt(i) == 'a' || 
+			 str.charAt(i) == 'A' ||
+			 str.charAt(i) == 'e' ||
+			 str.charAt(i) == 'E' ||
+			 str.charAt(i) == 'i' ||
+			 str.charAt(i) == 'I' ||
+			 str.charAt(i) == 'o' ||
+			 str.charAt(i) == 'O' ||
+			 str.charAt(i) == 'u' ||
+			 str.charAt(i) == 'U' ) 
+		{
+			count++;
+		}
+	}
+	return count;
+
+// fim da classe secundaria
+}
+
+
+//fim da classe - principal 
+}
