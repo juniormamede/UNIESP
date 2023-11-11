@@ -1,0 +1,25 @@
+-- Configurando o nome que aparecerá ao executar commit
+$ git config --global user.name "Junior Mamede"
+
+-- Configurando o e-mail da conta Git
+$ git config --global user.email diplomata82@gmail.com
+
+-- Baixar tudo que esta no GitHub
+-- https://github.com/juniormamede/UNIESP
+-- Procure pelo [Botão] <>CODE
+-- Copie o Link e Cole no GitClone
+$ git clone <URL>
+
+-- Verificar Status do que nao esta sincronizado
+-- Maquina Local
+git status
+
+-- Adicionando Informacoes que irao para o seu git hub
+git add .
+
+-- Adicionar Comentario ao Commit
+git commit -m "Mensagem"
+
+-- Enviando dados ao Repositorio GIT
+git push
+
