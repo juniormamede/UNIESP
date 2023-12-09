@@ -1,0 +1,25 @@
+09/12/2023
+métodos = comportamento das  minhas aplicações
+ORM - Object Relational Mapping (Mapeamento Objeto-Racional)
+
+REST = UMA API
+RESTful = MINHA API COMPLETA
+
+REQUEST X RESPONSE 
+=============================
+VERBOS HTTTP
+get = obter (solicitação)
+post = publicar (criação de um recurso)
+put = up date (atualizar/editar o recurso já criado)
+patch = atualiza apenas o que precisa ser alterado
+delete = remove a criação anteriormente criado
+*CRUD
+CREATE
+READ
+UPDATE
+DELETE
+=========================================
+
+
+
+
