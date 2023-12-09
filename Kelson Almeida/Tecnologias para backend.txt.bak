@@ -8,11 +8,14 @@ RESTful = MINHA API COMPLETA
 REQUEST X RESPONSE 
 =============================
 VERBOS HTTTP
-get = obter (solicitação)
-post = publicar (criação de um recurso)
-put = up date (atualizar/editar o recurso já criado)
-patch = atualiza apenas o que precisa ser alterado
-delete = remove a criação anteriormente criado
+
+GET    = obter (solicitação)
+POST   = publicar (criação de um recurso)
+PUT    = up date (atualizar/editar o recurso já criado)
+PATCH  = atualiza apenas o que precisa ser alterado
+DELETE = remove a criação anteriormente criado
+
+
 *CRUD
 CREATE
 READ

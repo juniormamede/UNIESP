@@ -1,0 +1,30 @@
+09/12/2023
+métodos = comportamento das  minhas aplicações
+ORM - Object Relational Mapping (Mapeamento Objeto-Racional)
+
+REST = UMA API
+RESTful = MINHA API COMPLETA
+
+REQUEST X RESPONSE 
+=============================
+VERBOS HTTTP
+
+GET    = obter (solicitação)
+POST   = publicar (criação de um recurso)
+PUT    = up date (atualizar/editar o recurso já criado)
+PATCH  = atualiza apenas o que precisa ser alterado
+DELETE = remove a criação anteriormente criado
+
+
+*CRUD
+CREATE
+READ
+UPDATE
+DELETE
+=========================================
+
+
+Site para construit API
+
+https://start.spring.io/
+
